@@ -3,12 +3,24 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jest": "^26.0.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psybiko/mars-rover.git"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "jest": "^26.0.1"
-  }
+  "bugs": {
+    "url": "https://github.com/psybiko/mars-rover/issues"
+  },
+  "homepage": "https://github.com/psybiko/mars-rover#readme"
 }
